@@ -1,0 +1,30 @@
+.background    { background: rgb(0, 0, 0);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.spikes        { background: url('../images/spikes.png'); }
+.wall          { background: rgb(51, 25, 0); }
+.grave          { background: rgb(100, 100, 100); }
+
+.actor { position: absolute;  }
+.redkey { background: url('../images/key.png'); }
+.bluekey { background: url('../images/bluekey.png'); }
+.yellowkey { background: url('../images/yellowkey.png'); }
+.greenkey { background: url('../images/greenkey.png'); }
+.player { background-image: url('../images/Robber.png'); }
+.enemy { background-image: url('../images/Zombie2.png');}
+.powerup { background: rgb(0, 0, 255);}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
